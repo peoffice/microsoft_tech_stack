@@ -17,14 +17,28 @@
     * [Create nuget package from dlls](https://stackoverflow.com/questions/43277715/create-nuget-package-from-dlls)
     * [NuGet Package Explorer](https://github.com/NuGetPackageExplorer/NuGetPackageExplorer)
     * nuget.ext
-* 
-  
+* C++ dll打包问题
+  * [CoApp](http://coapp.org/)
+  * [创建c++的nuget库](https://blog.csdn.net/bjrxyz/article/details/51781640)
+  * [NuGet for C++](https://blogs.msdn.microsoft.com/vcblog/2013/04/26/nuget-for-c/)
+  * [coapp packages](https://www.nuget.org/profiles/coapp/)
+  * [Tutorials for building packages](http://coapp.org/pages/tutorials.html)
+  * [How to Build a Package](http://coapp.org/tutorials/building-a-package.html)
+  * [AutoPackage Script Guide](http://coapp.org/reference/autopackage-ref.html)
+  * [Find-Build-Share-Use: Using NuGet for C and C++ Libraries](https://www.youtube.com/watch?v=PKp61HsnG4U)
+* install pwowershell tool for vs2017
+  * click menu of 'extensions and update'
+  * search powershell 
+  * download
+  * close window to install
 #### 问题
 * 如何安装package
 * 如何上传自己编译的package
 * 如何更新自己编译的package
 * 是否可以将已存在的dll（没有源代码，或者不通过修改源代码方式），上传为package
 * dll的组装问题，即dll的层次结构（如dll插件）
+* 依赖包可以递归安装
 * 
 #### 参考
 * [NuGet 简介-微软官方文档](https://docs.microsoft.com/zh-cn/nuget/what-is-nuget)
+* [NuGet Blog](https://blog.nuget.org/)
